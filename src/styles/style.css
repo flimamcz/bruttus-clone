@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-yellow: #FFBA00;
+    --color-white: #f1f1f1;
+    --color-black: #010101;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--color-white);
+    background-color: var(--color-black);
+    font-family: 'Oswald', sans-serif;
+}
+
+/* estilos gerais */
+
+.button {
+    display: block;
+    color: var(--color-black);
+    background: var(--color-yellow);
+    padding: 1rem 2rem;
+}
+
+/* container */
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.container-intro-header {
+    width: 100%;
+    background: url('/src//images/bg-intro.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* HEADER */
+
+.header {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.logo {
+    min-width: 60px;
+}
+
+.navbar-header ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+}
+
+.navbar-header ul li a{
+    font-family: 'DM Sans', sans-serif;
+    color: var(--color-white);
+    font-size: 1.6rem;
+}
+
+.navbar-header ul li a:hover{
+    transition: .3s;
+    color: var(--color-yellow);
+}
+
+.navbar-header .button {
+    font-weight: 500;
+    display: block;
+    color: var(--color-black);
+    background: var(--color-yellow);
+    padding: 1.2rem 2rem;
+    border-radius: 3px;
+}
+
+.navbar-header .button:hover {
+    background: #1b1a1a;
+}
+
+/* introduction */
+
+
+.introduction {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.hbg-intro{
+    max-width: 40%;
+}
+
+.introduction-text {
+    max-width: 60%;
+}
+
+.introduction-text h1 {
+    font-size: 5.8rem;
+    line-height: 1.4;
+}
+
+.introduction-text h1::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: var(--color-yellow);
+    display: block;
+    margin: 3.2rem 0;
+}
+
+
+.introduction-text p{
+    font-size: 1.6rem;
+    color:#9CB4BA;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.introduction-elements {
+    display: flex;
+    align-items: center;
+    gap: 6.4rem;
+}
+
+.introduction-elements li span{
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.introduction-text a{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 5rem;
+    background: var(--color-yellow);
+    margin-top: 3rem;
+    border-radius: 2px;
+    padding: 1rem 3rem;
+    color: var(--color-black);
+}
+

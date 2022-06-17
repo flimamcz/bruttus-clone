@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="src/logo-bruttus.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/images/logo-bruttus.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BULLGUER - Seu smashburguer favorito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Oswald:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <title>Bruttus Burguer- Seu hamburguer artesanal favorito</title>
 </head>
 
 <body>
-    <main>
-
-        <section>
-            <header>
+    <main class="">
+        <section class="container-intro-header">
+            <header class="header">
                 <a class="logo" href="/">
-                    <img src="src/logo-bruttus.png" alt="logo da bruttus - hamburgueria artesanal" width="100">
+                    <img src="src/images/logo-bruttus.png" alt="logo da bruttus - hamburgueria artesanal" width="80">
 
-                    <nav>
+                    <nav class="navbar-header">
                         <ul>
                             <li>
                                 <a href="#">Sobre</a>
@@ -39,7 +44,7 @@
                             </li>
 
                             <li>
-                                <a class="button-nav" href="#">Peça Online</a>
+                                <a class="button" href="#">Peça Online</a>
                             </li>
                         </ul>
                     </nav>
@@ -47,24 +52,25 @@
             </header>
 
             <div class="introduction">
-                <img src="src/hmbr-one.png" alt="foto de um hamburguer artesanal">
+                <img class="hbg-intro" src="src/images/hmbr-one.png" alt="foto de um hamburguer artesanal">
 
                 <div class="introduction-text">
-                    <h1>O MELHOR DO HAMBÚRGUER ARTESANAL</h1>
+                    <h1>O MELHOR DO <br> HAMBÚRGUER ARTESANAL</h1>
                     <p>Nossos burgers são exclusivos, preparados com ingredientes frescos, feitos na casa.</p>
-                    <ul>
+
+                    <ul class="introduction-elements">
                         <li>
-                            <img src="src/icons8-hambúrguer.png" alt="icone de um hamburguer">
+                            <img src="src/images/icons8-hambúrguer.png" alt="icone de um hamburguer">
                             <span>Delicioso</span>
                         </li>
-                        
+
                         <li>
-                            <img src="src/icons8-knife.png" alt="icone de um faca e um garfo">
+                            <img src="src/images/icons8-knife.png" alt="icone de um faca e um garfo">
                             <span>Artesanal</span>
                         </li>
 
                         <li>
-                            <img src="src/icons8-conta-verificada-100.png" alt="icone de um selo aprovado">
+                            <img src="src/images/icons8-conta-verificada-100.png" alt="icone de um selo aprovado">
                             <span>Aprovado</span>
                         </li>
                     </ul>
@@ -80,7 +86,7 @@
                 <p>Surpreendente</p>
                 <span>Peça online</span>
             </div>
-            
+
             <div>
                 <img src="" alt="">
                 <h2>Restaurante</h2>
@@ -88,7 +94,270 @@
                 <span>Faça uma visita</span>
             </div>
         </section>
+
+        <section>
+            <div>
+                <p>Primeiro pedido</p>
+                <h2>Ganhe 20% de desconto no seu primeiro pedido</h2>
+                <span>Cupom: primeiro20</span>
+                <a href="#">Resgate Agora</a>
+            </div>
+
+            <div>
+                <p>Exclusido Rappi</p>
+                <h2>R$20,00 off para o seu primeiro pedido com a bruttus na rappi.</h2>
+                <span>Resgate o desconto clicando abaixo.</span>
+                <a href="#">Resgate Agora</a>
+            </div>
+        </section>
+
+        <section>
+            <img src="src/hamburguer-encontre.jpg"
+                alt="imagem de varios hamburgueres com a logo da bruttus hamburgueria">
+            <div>
+                <h2>Encontre a melhor comida e bebida em um só lugar</h2>
+                <p>
+                    Para quem procura uma experiência em harmonização de burgers e cervejas, a Bruttus oferece uma
+                    variedade de cervejas selecionadas para combinar perfeitamente com seu hambúrguer.
+                </p>
+                <a href="#">Sobre nós</a>
+            </div>
+        </section>
+
+        <section class="movie">
+            <iframe width="1260" height="600" src="https://www.youtube.com/embed/JD3G4BOGeHE?controls=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+            </iframe>
+
+            <h2>Servimos para você o melhor</h2>
+            <p>Um cardápio Surpreendente para nossos clientes.</p>
+        </section>
+
+        <section>
+            <h1>Confira
+                <span>
+                    Nosso cardápio
+                </span>
+            </h1>
+
+            <div class="container-cardapio">
+                <div class="card-cardapio">
+                    <article>
+                        <h2>HAMBÚRGUER BOI DIVINO</h2>
+                        <span>100% Natural</span>
+                        <ul>
+                            <li>Hambúrguer de boi assado na churrasqueira</li>
+                            <li>Queijo mussarela</li>
+                            <li>Pão artesanal especia</li>
+                            <li>Alface</li>
+                            <li>Tomate</li>
+                            <li>Molho especial (à parte)</li>
+                        </ul>
+
+                        <a href="#">Peça já a ji-paraná</a>
+                        <a href="#">Peça já a Rolim de moura</a>
+                        <span>R$ 27,99</span>
+                    </article>
+
+                    <img src="src/boi-divino.jpg" alt="foto de um hamburguer de carne">
+                </div>
+
+                <div class="card-cardapio">
+                    <article>
+                        <h2>HAMBÚRGUER FRANGO SOBERANO</h2>
+                        <span>100% Natural</span>
+                        <ul>
+                            <li>Hambúrguer carne de frango assado na churrasqueira</li>
+                            <li>Queijo mussarela</li>
+                            <li>Pão artesanal especial</li>
+                            <li>Alface</li>
+                            <li>Tomate</li>
+                            <li>Molho especial (à parte)</li>
+                        </ul>
+
+                        <a href="#">Peça já a ji-paraná</a>
+                        <a href="#">Peça já a Rolim de moura</a>
+                        <span>R$ 21,99</span>
+                    </article>
+
+                    <img src="src/frango-card-1.jpg" alt="foto de um hamburguer de frango">
+                </div>
+
+
+                <div class="card-cardapio">
+                    <article>
+                        <h2>HAMBÚRGUER PORCO EXPLÊNDIDO</h2>
+                        <span>100% Natural</span>
+                        <ul>
+                            <li>Hambúrguer de porco assado na churrasqueira</li>
+                            <li>Queijo mussarela</li>
+                            <li>Pão artesanal especia</li>
+                            <li>Alface</li>
+                            <li>Tomate</li>
+                            <li>Molho especial (à parte)</li>
+                        </ul>
+
+                        <a href="#">Peça já a ji-paraná</a>
+                        <a href="#">Peça já a Rolim de moura</a>
+                        <span>R$ 22,99</span>
+                    </article>
+
+                    <img src="src/porco-esplendido.jpg" alt="foto de um hamburguer de porco">
+                </div>
+
+
+                <div class="card-cardapio">
+                    <article>
+                        <h2>HAMBÚRGUER COLOSSAL</h2>
+                        <span>100% Natural</span>
+                        <ul>
+                            <li>Hambúrguer de boi assado na churrasqueira</li>
+                            <li>Queijo Cheddar</li>
+                            <li>Bacon</li>
+                            <li>Pão artesanal especia</li>
+                            <li>Alface</li>
+                            <li>Tomate</li>
+                            <li>Onion Rings</li>
+                            <li>Molho especial (à parte)</li>
+                        </ul>
+
+                        <a href="#">Peça já a ji-paraná</a>
+                        <a href="#">Peça já a Rolim de moura</a>
+                        <span>R$ 55,99</span>
+                    </article>
+
+                    <img src="src/colossal.png" alt="foto de um hamburguer de boi">
+                </div>
+
+                <div class="card-cardapio">
+                    <article>
+                        <h2>HAMBÚRGUER BOI DIVINO</h2>
+                        <span>100% Natural</span>
+                        <ul>
+                            <li>Hambúrguer de porco defumado e assado churrasqueira</li>
+                            <li>Queijo mussarela</li>
+                            <li>Exclusivo Pão artesanal Australiano</li>
+                            <li>Alface</li>
+                            <li>Tomate</li>
+                            <li>Molho especial (à parte)</li>
+                        </ul>
+
+                        <a href="#">Peça já a ji-paraná</a>
+                        <a href="#">Peça já a Rolim de moura</a>
+                        <span>R$ 29,99</span>
+                    </article>
+
+                    <img src="src/porco-fabuloso.jpg" alt="foto de um hamburguer de porco">
+                </div>
+
+                <div class="card-cardapio">
+                    <article>
+                        <h2>HAMBÚRGUER BOI DIVINO</h2>
+                        <span>100% Natural</span>
+                        <ul>
+                            <li>Hambúrguer de boi ou frango assado na churrasqueira</li>
+                            <li>Queijo mussarela</li>
+                            <li>Pão artesanal especia</li>
+                            <li>Alface</li>
+                            <li>Tomate</li>
+                            <li>Refri Kids</li>
+                            <li>Fritas</li>
+                            <li>Cookie Angus</li>
+                            <li>Molho especial (à parte)</li>
+                        </ul>
+
+                        <a href="#">Peça já a ji-paraná</a>
+                        <a href="#">Peça já a Rolim de moura</a>
+                        <span>R$ 36,99</span>
+                    </article>
+
+                    <img src="src/combo.jpg" alt="foto de um hamburguer de boi. coca e batata mais um cookie">
+                </div>
+
+                <div class="card-cardapio adicionais-bebida">
+                    <ul>
+                        <li>
+                            <span>Bacon</span>
+                            <span>R$ 3,00</span>
+                        </li>
+
+                        <li>
+                            <span>Queijo Cheddar</span>
+                            <span>R$ 3,00</span>
+                        </li>
+
+                        <li>
+                            <span>Cebola Caramelizada</span>
+                            <span>R$ 2,50</span>
+                        </li>
+
+                        <li>
+                            <span>Molho Tradicional</span>
+                            <span>R$ 1,50</span>
+                        </li>
+
+                        <li>
+                            <span>Molho Barbecue</span>
+                            <span>R$ 2,00</span>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <span>Coca-cola Lata</span>
+                            <span>R$ 4,00</span>
+                        </li>
+
+                        <li>
+                            <span>Fanta Laranja Lanta</span>
+                            <span>R$ 4,00</span>
+                        </li>
+
+                        <li>
+                            <span>Guaraná Antartica Lata</span>
+                            <span>R$ 3,50</span>
+                        </li>
+
+                        <li>
+                            <span>Suco Del Valle Lata</span>
+                            <span>R$ 2,50</span>
+                        </li>
+
+                        <li>
+                            <span>Água Mineral</span>
+                            <span>R$ 2,50</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <section>
+        <div>
+            <img src="src/logo-bruttus.png" alt="logo da bruttus">
+            <p>A Bruttus é Você!</p>
+        </div>
+
+        <div>
+            <h2>Telefone</h2>
+            <p>(82) 9-9199-9900</p>
+            <h2>Email</h2>
+            bruttus@contato.com.br
+        </div>
+
+        <div>
+            <h2>Endereço</h2>
+            <p>Osasco: Av. Pref. Hirant Sanazar, 98.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            © 2021 BRUTTUS BURGER – Todos os direitos reservados.
+        </p>
+    </footer>
 
 </body>
 
