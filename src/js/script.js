@@ -9,4 +9,9 @@ function handleScroll(){
     }
 }
 
+function handleClick(){
+    window.scrollTo(0, 0)
+}
+
 window.addEventListener('scroll', handleScroll)
+buttonTop.addEventListener('click', handleClick)
