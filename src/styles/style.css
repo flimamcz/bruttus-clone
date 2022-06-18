@@ -523,3 +523,13 @@ body {
     color: var(--color-black);
     font-weight: 400;
 }
+
+/* button top */
+
+.btn-top {
+    cursor: pointer;
+    position: fixed;
+    right: 4rem;
+    bottom: 6rem;
+    display: none;
+}
