@@ -248,3 +248,277 @@ body {
     color: var(--color-yellow);
     transition: .3s;
 }
+
+.container-cards-pedido {
+    max-width: 1150px;
+    margin: 0 auto 12rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.card-desconto {
+    width: min(50%, 560px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #171717;
+}
+
+.card-desconto p{
+    font-family: 'DM Sans', sans-serif;
+    color: var(--color-yellow);
+    font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.card-desconto h2 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+.card-desconto span{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #9CB4BA;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.card-desconto a{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    color: var(--color-yellow);
+    display: block;
+}
+.card-desconto a:hover{
+    transition: .3s;
+    transform: scale(1.05);
+}
+
+.about {
+    width: min(90%, 1150px);
+    margin: 0 auto 12rem auto;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about-text h2 {
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.about-text h2::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: var(--color-yellow);
+    display: block;
+    margin: 3.2rem 0;
+}
+
+.about-text p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #9CB4BA;
+}
+
+.about-text a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    color: var(--color-black);
+    background-color: var(--color-yellow);
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 1.2rem 3rem;
+    border-radius: 3px;
+}
+
+/* faça pedido */
+
+.pedido {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.pedido h1{
+    font-size: 4.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pedido h1::after{
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: var(--color-yellow);
+    display: block;
+    margin: 3.2rem auto;
+}
+
+.pedido p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #9CB4BA;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.links-pedido{
+    max-width: 500px;
+    margin: 4rem auto 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 9rem;
+
+} 
+
+.links-pedido a{
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    color: var(--color-black);
+    padding: 1.4rem 3rem;
+    border-radius: 3px;
+    background-color: var(--color-yellow);
+}
+
+.links-pedido a:hover{
+    transition: .3s;
+    transform: scale(1.05);
+}
+
+.container-cardapio {
+    max-width: 1150px;
+    margin: 0 auto;
+    background: #fff;
+    color: var(--color-black);
+    border-top: 8px solid #A47043;
+    border-bottom: 8px solid #A47043;
+    padding: 4rem;
+}
+
+.cardapio h1{
+    font-size: 6rem;
+    font-weight: 400;
+    font-family: 'Allura', cursive;
+    color: #A47043;
+    font-style: italic;
+    text-align: center;
+}
+
+.cardapio-subtitle {
+    position: relative;
+    top: -30px;
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.card-cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px dashed var(--color-yellow);
+    padding: 4rem 0;
+}
+
+.card-cardapio article h2{
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: #A47043;
+    font-weight: 500;
+}
+
+.card-cardapio article span:first-of-type{
+    display: block;
+    font-size: 1.4rem;
+    color: var(--color-yellow);
+    padding: 1rem 0;
+}
+
+.card-cardapio ul li{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #5F5961;
+    margin: 1rem 0;
+    list-style-type: square;
+}
+
+.price {
+    color: #5F5961;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.button-cardapio {
+    position: relative;
+    left: -30px;
+    font-size: 1.6rem;
+    color: var(--color-white);
+    background: var(--color-black);
+    display: inline-block;
+    padding: 1.2rem 2rem;
+    border-radius: 5px;
+    margin: 40px 10px;
+}
+
+.adicionais-bebida h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 4rem;
+}
+
+.pre-footer {
+    max-width: 1150px;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 0.05rem solid #5F5961;
+}
+
+.pre-footer h2{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.pre-footer p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.footer-logo p {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: var(--color-yellow);
+}
+
+.footer p{
+    font-size: 1.4rem;
+    color: var(--color-black);
+    font-weight: 400;
+}

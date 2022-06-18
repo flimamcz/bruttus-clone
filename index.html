@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Oswald:wght@400;500;700&display=swap"
         rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/style.css">
     <title>Bruttus Burguer- Seu hamburguer artesanal favorito</title>
 </head>
@@ -89,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="card-cardapio-intro card-cerveja-intro" >
+            <div class="card-cardapio-intro card-cerveja-intro">
                 <img src="src/images/restaurante-bebida.png" alt="imagem de uma cerveja" width="120">
                 <div class="card-text-intro">
                     <h2>Restaurante</h2>
@@ -99,51 +102,63 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <p>Primeiro pedido</p>
-                <h2>Ganhe 20% de desconto no seu primeiro pedido</h2>
-                <span>Cupom: primeiro20</span>
-                <a href="#">Resgate Agora</a>
+        <section class="container-cards-pedido">
+            <div class="card-desconto">
+                <div class="card-desconto-text">
+                    <p>Primeiro pedido</p>
+                    <h2>Ganhe 20% de desconto no seu primeiro pedido</h2>
+                    <span>Cupom: primeiro20</span>
+                    <a href="#">Resgate Agora</a>
+                </div>
+                <div>
+                    <img src="src/images/hambur-desconto.png" alt="foto de um hamburguer" width="200">
+                </div>
             </div>
 
-            <div>
-                <p>Exclusido Rappi</p>
-                <h2>R$20,00 off para o seu primeiro pedido com a bruttus na rappi.</h2>
-                <span>Resgate o desconto clicando abaixo.</span>
-                <a href="#">Resgate Agora</a>
+            <div class="card-desconto">
+                <div class="card-desconto-text">
+                    <p>Exclusido Rappi</p>
+                    <h2>R$20,00 off para o seu primeiro pedido com a bruttus na rappi.</h2>
+                    <span>Resgate o desconto clicando abaixo.</span>
+                    <a href="#">Resgate Agora</a>
+                </div>
+                <div>
+                    <img src="src/images/hamburguer-rappi.png" alt="foto de um hamburguer" width="200">
+                </div>
             </div>
         </section>
 
-        <section>
-            <img src="src/hamburguer-encontre.jpg"
-                alt="imagem de varios hamburgueres com a logo da bruttus hamburgueria">
-            <div>
+        <section class="about">
+            <img src="src/images/hamburguer-encontre.jpg"
+                alt="imagem de varios hamburgueres com a logo da bruttus hamburgueria" width="600">
+            <div class="about-text">
                 <h2>Encontre a melhor comida e bebida em um só lugar</h2>
                 <p>
                     Para quem procura uma experiência em harmonização de burgers e cervejas, a Bruttus oferece uma
                     variedade de cervejas selecionadas para combinar perfeitamente com seu hambúrguer.
                 </p>
-                <a href="#">Sobre nós</a>
+                <a class="" href="#">Sobre nós</a>
             </div>
         </section>
 
-        <section class="movie">
-            <iframe width="1260" height="600" src="https://www.youtube.com/embed/JD3G4BOGeHE?controls=0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
-            </iframe>
+        <section class="pedido">
+            <h1>Faça sua escolha</h1>
+            <p>
+                INGREDIENTES FRESCOS E SELECIONADOS, TUDO PARA GARANTIR QUALIDADE E SABOR PRA VOCÊ!
+            </p>
 
-            <h2>Servimos para você o melhor</h2>
-            <p>Um cardápio Surpreendente para nossos clientes.</p>
+             <div class="links-pedido">
+                    <a>Peça Online</a>
+                    <a>Rappi</a>
+                    <a>WhatsApp</a>
+                </div>
         </section>
 
-        <section>
-            <h1>Confira
-                <span>
-                    Nosso cardápio
-                </span>
-            </h1>
+        <section class="cardapio">
+            <h1>Confira</h1>
+            <p class="cardapio-subtitle">
+                Nosso cardápio
+            </p>
 
             <div class="container-cardapio">
                 <div class="card-cardapio">
@@ -159,12 +174,12 @@
                             <li>Molho especial (à parte)</li>
                         </ul>
 
-                        <a href="#">Peça já a ji-paraná</a>
-                        <a href="#">Peça já a Rolim de moura</a>
-                        <span>R$ 27,99</span>
+                        <a class="button-cardapio" href="#">Peça já a ji-paraná</a>
+                        <a class="button-cardapio" href="#">Peça já a Rolim de moura</a>
+                        <span class="price">R$ 27,99</span>
                     </article>
 
-                    <img src="src/boi-divino.jpg" alt="foto de um hamburguer de carne">
+                    <img src="src/images/boi-divino.jpg"  loading="lazy" alt="foto de um hamburguer de carne" width="400">
                 </div>
 
                 <div class="card-cardapio">
@@ -180,12 +195,12 @@
                             <li>Molho especial (à parte)</li>
                         </ul>
 
-                        <a href="#">Peça já a ji-paraná</a>
-                        <a href="#">Peça já a Rolim de moura</a>
-                        <span>R$ 21,99</span>
+                        <a class="button-cardapio" href="#">Peça já a ji-paraná</a>
+                        <a class="button-cardapio" href="#">Peça já a Rolim de moura</a>
+                        <span class="price">R$ 21,99</span>
                     </article>
 
-                    <img src="src/frango-card-1.jpg" alt="foto de um hamburguer de frango">
+                    <img src="src/images/frango-card-1.jpg" loading="lazy" alt="foto de um hamburguer de frango" width="400">
                 </div>
 
 
@@ -202,12 +217,12 @@
                             <li>Molho especial (à parte)</li>
                         </ul>
 
-                        <a href="#">Peça já a ji-paraná</a>
-                        <a href="#">Peça já a Rolim de moura</a>
-                        <span>R$ 22,99</span>
+                        <a class="button-cardapio" href="#">Peça já a ji-paraná</a>
+                        <a class="button-cardapio" href="#">Peça já a Rolim de moura</a>
+                        <span class="price">R$ 22,99</span>
                     </article>
 
-                    <img src="src/porco-esplendido.jpg" alt="foto de um hamburguer de porco">
+                    <img src="src/images/porco-esplendido.jpg" loading="lazy" alt="foto de um hamburguer de porco" width="400">
                 </div>
 
 
@@ -226,12 +241,12 @@
                             <li>Molho especial (à parte)</li>
                         </ul>
 
-                        <a href="#">Peça já a ji-paraná</a>
-                        <a href="#">Peça já a Rolim de moura</a>
-                        <span>R$ 55,99</span>
+                        <a class="button-cardapio" href="#">Peça já a ji-paraná</a>
+                        <a class="button-cardapio" href="#">Peça já a Rolim de moura</a>
+                        <span class="price">R$ 55,99</span>
                     </article>
 
-                    <img src="src/colossal.png" alt="foto de um hamburguer de boi">
+                    <img src="src/images/colossal.png" loading="lazy" alt="foto de um hamburguer de boi" width="400">
                 </div>
 
                 <div class="card-cardapio">
@@ -247,12 +262,12 @@
                             <li>Molho especial (à parte)</li>
                         </ul>
 
-                        <a href="#">Peça já a ji-paraná</a>
-                        <a href="#">Peça já a Rolim de moura</a>
-                        <span>R$ 29,99</span>
+                        <a class="button-cardapio" href="#">Peça já a ji-paraná</a>
+                        <a class="button-cardapio" href="#">Peça já a Rolim de moura</a>
+                        <span class="price">R$ 29,99</span>
                     </article>
 
-                    <img src="src/porco-fabuloso.jpg" alt="foto de um hamburguer de porco">
+                    <img src="src/images/porco-fabuloso.jpg" loading="lazy" alt="foto de um hamburguer de porco" width="400">
                 </div>
 
                 <div class="card-cardapio">
@@ -271,16 +286,17 @@
                             <li>Molho especial (à parte)</li>
                         </ul>
 
-                        <a href="#">Peça já a ji-paraná</a>
-                        <a href="#">Peça já a Rolim de moura</a>
-                        <span>R$ 36,99</span>
+                        <a class="button-cardapio" href="#">Peça já a ji-paraná</a>
+                        <a class="button-cardapio" href="#">Peça já a Rolim de moura</a>
+                        <span class="price">R$ 36,99</span>
                     </article>
 
-                    <img src="src/combo.jpg" alt="foto de um hamburguer de boi. coca e batata mais um cookie">
+                    <img src="src/images/combo.jpg" loading="lazy" alt="foto de um hamburguer de boi. coca e batata mais um cookie" width="400">
                 </div>
 
                 <div class="card-cardapio adicionais-bebida">
                     <ul>
+                        <h1>Adicionais</h1>
                         <li>
                             <span>Bacon</span>
                             <span>R$ 3,00</span>
@@ -308,6 +324,7 @@
                     </ul>
 
                     <ul>
+                        <h1>Bebidas</h1>
                         <li>
                             <span>Coca-cola Lata</span>
                             <span>R$ 4,00</span>
@@ -338,9 +355,9 @@
         </section>
     </main>
 
-    <section>
-        <div>
-            <img src="src/logo-bruttus.png" alt="logo da bruttus">
+    <section class="pre-footer">
+        <div class="footer-logo">
+            <img src="src/images/logo-bruttus.png" loading="lazy" alt="logo da bruttus" width="120">
             <p>A Bruttus é Você!</p>
         </div>
 
@@ -348,7 +365,7 @@
             <h2>Telefone</h2>
             <p>(82) 9-9199-9900</p>
             <h2>Email</h2>
-            bruttus@contato.com.br
+            <p>bruttus@contato.com.br</p>
         </div>
 
         <div>
@@ -357,7 +374,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <p>
             © 2021 BRUTTUS BURGER – Todos os direitos reservados.
         </p>
